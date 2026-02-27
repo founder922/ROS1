@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="embodied_ros1" type="perception_node" name="perception"/>
+  <node pkg="embodied_ros1" type="binding_node" name="binding"/>
+  <node pkg="embodied_ros1" type="memory_node" name="memory"/>
+  <node pkg="embodied_ros1" type="motor_node" name="motor"/>
+</launch>
