@@ -1,0 +1,8 @@
+Timestamp: 00:00
+Field update cycle: 43 ms
+Obstacle density: 0.35
+Velocity command: 0.14 m/s
+
+Timestamp: 00:01
+Field update cycle: 44 ms
+Velocity command: 0.12 m/s
