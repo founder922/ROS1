@@ -4,16 +4,36 @@ Implementation of neural field dynamics and perceptual binding for real-robot na
 
 Official implementation accompanying the paper:
 
-"Embodied Cognition in Robotics via Neural Field Dynamics and Perceptual Binding"
+**Embodied Cognition in Robotics via Neural Field Dynamics and Perceptual Binding**
+
+---
+
 ## Overview
 
-This repository contains the ROS1 implementation of a neural-field-based navigation framework inspired by embodied cognition principles.
-
-The system integrates:
+This repository contains a ROS1 implementation of an embodied cognition-inspired navigation framework based on:
 
 - Neural field dynamics
 - Perceptual binding
-- Real-time LiDAR processing
+- Continuous sensorimotor coupling
 - Field-based motor control
 
-Tested on TurtleBot3 Burger platform.
+Test platform:
+- TurtleBot3 Burger
+- RPLiDAR A1
+- ROS1 Noetic
+
+---
+
+## Repository Structure
+
+- `config/` → neural field parameters
+- `launch/` → ROS launch files
+- `src/` → core nodes (perception, binding, memory, motor)
+- `experiments/` → validation protocol
+
+---
+
+## Running (example)
+
+```bash
+roslaunch embodied_navigation.launch
