@@ -37,3 +37,11 @@ Test platform:
 
 ```bash
 roslaunch embodied_navigation.launch
+
+---
+
+## Citation
+
+If you use this work, please cite:
+
+Embodied Cognition in Robotics via Neural Field Dynamics and Perceptual Binding, 2026.
