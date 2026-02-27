@@ -1,0 +1,11 @@
+Field Params
+config/field_parameters.yaml
+tau: 50
+resting_level: -5.0
+Ae: 2.5
+Ai: 1.5
+sigma_e: 0.5
+sigma_i: 1.0
+noise_strength: 0.1
+resolution: 64
+update_rate: 20
